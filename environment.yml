@@ -1,0 +1,21 @@
+name: pmt6ss_postbakta
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - snakemake-minimal>=8
+  - pandas>=2
+  - biopython>=1.83
+  - pyyaml
+  - numpy
+  - scipy
+  - hmmer>=3.3
+  - mmseqs2
+  - mafft
+  - fasttree
+  - macsyfinder>=2
+  - seqkit
+  - pigz
+  - parallel
